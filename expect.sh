@@ -6,7 +6,7 @@ set commands [split [read $f] "\n"]
 close $f
 
 set timestamp [timestamp -format %Y-%m-%d-%H-%M]
-set router  "103.7.251.248"
+set router  "network-device-IP"
 set username  "username"
 set password  "password"
 set port "22"
